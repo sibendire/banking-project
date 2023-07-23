@@ -31,4 +31,9 @@ public class User {
                 firstname,lastname, this.uuid);
 
     }
+
+    public void addAccount(Account account) {
+
+
+    }
 }

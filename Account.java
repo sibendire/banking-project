@@ -14,5 +14,8 @@ public class Account {
         this.uuid = theBank.getNewAccountUUID();
         // initial Transaction
         this.transactions = new ArrayList<Transactions>();
+        holder.addAccount(this);
+        theBank.addAccount(this);
+
     }
 }
