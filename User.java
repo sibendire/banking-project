@@ -24,7 +24,7 @@ public class User {
         }
         // get a new unique universal id for the user
         this.uuid = theBank.getNewUserUUID();
-        // create empty list of account
+        // create empty list of accounts
         this.accounts = new ArrayList<Account>();
         // print the log Message
         System.out.printf("New user %s, %s wit id %s created.\n",
@@ -32,8 +32,14 @@ public class User {
 
     }
 
+    // add an account for the user
     public void addAccount(Account account) {
+        this.accounts.add(account);
 
 
+    }
+
+    public String getUUID() {
+        return this.uuid;
     }
 }
