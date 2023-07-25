@@ -28,7 +28,7 @@ public class Bank {
             }
         }while (nonUnique);
 
-return uuid;
+        return uuid;
     }
     public String getNewAccountUUID(){
         String uuid;
@@ -47,7 +47,7 @@ return uuid;
             }
 
         }while (nonUnique);
-return null;
+    return uuid;
     }
     //This method adds accounts to the bank
     public void addAccount(Account account){
