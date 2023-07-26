@@ -1,3 +1,7 @@
+package bank_class;
+
+import bank_class.Bank;
+
 import java.util.ArrayList;
 
 public class Account {
@@ -15,7 +19,7 @@ public class Account {
         // initial Transaction
         this.transactions = new ArrayList<Transactions>();
         // add the list to the bank and the holder
-        holder.addAccount(this);
+        holder. addAccount(this);
         theBank.addAccount(this);
 
     }

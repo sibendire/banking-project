@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c43ddf7c-8cd2-4bd8-aeac-7b8dfe29fae2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank_class/ATM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank_class/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank_class/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Transactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank_class/Transactions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank_class/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +43,7 @@
 }</component>
   <component name="RunManager">
     <configuration name="ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ATM" />
+      <option name="MAIN_CLASS_NAME" value="bank_class.ATM" />
       <module name="banking_project" />
       <method v="2">
         <option name="Make" enabled="true" />

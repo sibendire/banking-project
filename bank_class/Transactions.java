@@ -1,6 +1,10 @@
+package bank_class;
+
+
 import java.util.Date;
 
 public class Transactions {
+
     private double amount;
     private Date timeOfTransaction;
     private String statement;
