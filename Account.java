@@ -7,7 +7,7 @@ public class Account {
     private User holder;
     private ArrayList<Transactions> transactions;
 
-    public Account(String accountName, User holder,Bank theBank) {
+    public Account(String accountName, User holder, Bank theBank) {
         this.accountName = accountName;
         this.holder = holder;
 
@@ -19,7 +19,8 @@ public class Account {
         theBank.addAccount(this);
 
     }
-    public String getUUID(){
+
+    public String getUUID() {
         return this.uuid;
     }
 }
